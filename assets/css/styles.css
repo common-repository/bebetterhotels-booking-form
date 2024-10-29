@@ -1,0 +1,120 @@
+.bbh-form-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.8em 0 0.8em 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em; }
+
+.bbh-form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 15%; }
+  .bbh-form-container .sels_date {
+    display: none; }
+  .bbh-form-container .bbh-date-input {
+    width: 100%;
+    padding: 0.7em;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #999;
+    background-color: #eee;
+    cursor: pointer;
+    font-size: 14px; }
+  .bbh-form-container .bbh-select {
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0.65em;
+    border: 0;
+    color: #999;
+    background-color: #eee;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer; }
+    .bbh-form-container .bbh-select option {
+      color: graytext;
+      font-size: 14px;
+      font-weight: normal;
+      display: block;
+      white-space: pre;
+      min-height: 1em;
+      padding: 0px 2px 1px; }
+  .bbh-form-container .bbh-adults, .bbh-form-container .bbh-childrens {
+    position: relative; }
+    .bbh-form-container .bbh-adults:after, .bbh-form-container .bbh-childrens:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      width: 0;
+      height: 0;
+      margin-top: 3px;
+      border: 6px solid;
+      border-color: #666 transparent transparent transparent;
+      transform: translateY(-50%);
+      pointer-events: none; }
+  .bbh-form-container .bbh-button {
+    padding: 0.4em 1em;
+    border: 2px solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    display: inline-block;
+    font-family: inherit;
+    cursor: pointer; }
+
+div.ui-datepicker {
+  font-size: 14px; }
+
+.ui-datepicker-unselectable.ui-state-disabled,
+.ui-state-default,
+.ui-datepicker-unselectable ui-state-disabled span.ui-state-default,
+.ui-datepicker td span,
+.ui-datepicker td a {
+  line-height: 20px; }
+
+@media (min-width: 768px) and (max-width: 999px) {
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 49%;
+    margin-bottom: 0.5em; }
+  .bbh-form-container .bbh-form-item.bbh-book-btn {
+    flex-basis: 100%;
+    flex-grow: 1; }
+    .bbh-form-container .bbh-form-item.bbh-book-btn .bbh-button {
+      width: 100%; } }
+@media (min-width: 300px) and (max-width: 767px) {
+  .bbh-form-container .bbh-form-item {
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin-bottom: 0.2em; }
+    .bbh-form-container .bbh-form-item .bbh-button {
+      width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */

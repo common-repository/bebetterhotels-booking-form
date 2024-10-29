@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BeBetterHotels Booking Form 1.0.0\n"
+"POT-Creation-Date: 2019-04-04 08:25-0400\n"
+"PO-Revision-Date: 2019-04-10 12:15-0400\n"
+"Last-Translator: José Ayram <ayramj@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+#: wp-bebetterhotels-booking-form:85
+msgid "Error - no url was specified"
+msgstr "Error - No se especificó ninguna URL"
+
+#: wp-bebetterhotels-booking-form:89
+msgid "Error - The attribute customer was not specified"
+msgstr "Error - El atributo cliente, no fue especificado"
+
+#: wp-bebetterhotels-booking-form:93
+msgid "Error - The attribute show_childrens has a wrong value specified"
+msgstr "Error - El atributo show_childrens tiene un valor incorrecto"
+
+#: templates/booking-form:5
+msgid "Arrival"
+msgstr "Llegada"
+
+#: templates/booking-form:11
+msgid "Departure"
+msgstr "Salida"
+
+#: templates/booking-form:17
+msgid "Adults"
+msgstr "Adultos"
+
+#: templates/booking-form:24
+msgid "Childrens"
+msgstr "Niños"
+
+#: templates/booking-form:24
+msgid "Book Now"
+msgstr "Reservar"
+
+#: templates/options-general-form:2
+msgid "BeBetterHotels Shortcode Settings"
+msgstr "BeBetterHotels Shortcode - Ajustes"
+
+#: templates/options-general-form:7
+msgid "Fields Settings"
+msgstr "Ajustes de Campos"
+
+#: templates/options-general-form:11
+msgid "Adults Field:"
+msgstr "Campo Adultos:"
+
+#: templates/options-general-form:16,30
+msgid "required"
+msgstr "requerido"
+
+#: templates/options-general-form:19,33
+msgid "optional"
+msgstr "opcional"
+
+#: templates/options-general-form:25
+msgid "Childrens Field:"
+msgstr "Campo Niños:"
+
+#: templates/options-general-form:39
+msgid "Show Childrens Field:"
+msgstr "Mostrar Campo Niños:"
+
+#: templates/options-general-form:44
+msgid "yes"
+msgstr "si"
+
+#: templates/options-general-form:47
+msgid "no"
+msgstr "no"
+
+#: templates/options-general-form:54
+msgid "Styles Settings"
+msgstr "Ajustes de Estilos"
+
+#: templates/options-general-form:58
+msgid "Calendar Theme:"
+msgstr "Tema del Calendario:"
+
+#: templates/options-general-form:69
+msgid "Which theme can I choose?"
+msgstr "¿Cuál tema seleccionar?"
+
+#: templates/options-general-form:73
+msgid "You can see galleries examples <a href='%s' target='_blank'>here</a>"
+msgstr "Puede ver galerías de ejemplo <a href='%s' target='_blank'>aquí</a>"
+
+#: templates/options-general-form:82
+msgid "Button Border Color:"
+msgstr "Botón - Color del Borde:"
+
+#: templates/options-general-form:89
+msgid "Button Background Color:"
+msgstr "Botón - Color de Fondo:"
+
+#: templates/options-general-form:96
+msgid "Button Text Color:"
+msgstr "Botón - Color del Texto:"
